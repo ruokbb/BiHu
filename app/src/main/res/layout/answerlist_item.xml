@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp">
+
+        <TextView
+            android:layout_width="10sp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/list_avatar"
+            android:layout_width="30sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/list_name"
+            android:text="rokbb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+
+    <TextView
+        android:id="@+id/list_content"
+        android:text="   鬼知道这群人都经历了什么，天知道他们怎么想的你们说呢，范围在正喔有额不知道
+        谁打我"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="10sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/list_exciting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 赞同   "/>
+
+        <TextView
+            android:id="@+id/list_naive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 踩"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8sp"
+        android:background="@drawable/tration_color"/>
+
+</LinearLayout>

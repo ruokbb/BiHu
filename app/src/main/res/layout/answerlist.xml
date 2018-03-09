@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+
+    <TextView
+        android:id="@+id/answerlist_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        />
+
+    <TextView
+        android:id="@+id/answerlist_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/answerlist_answer_count"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="23条回答"/>
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/answerlist_collect"
+            android:background="@drawable/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="已关注"/>
+
+        <TextView
+            android:layout_width="10sp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        />
+
+    <Button
+        android:id="@+id/answerlist_addanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加回答"
+        android:textSize="18sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/long_button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:background="@drawable/tration_color"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/answerlist_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

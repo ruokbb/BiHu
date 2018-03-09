@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:layout_gravity="start">
+
+    <ImageView
+        android:id="@+id/left_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+        android:id="@+id/left_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/left_avatar"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="ruokbb"/>
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_below="@+id/left_name"
+        />
+
+    <TextView
+        android:id="@+id/left_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主页"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawableLeft="@mipmap/main"
+        android:drawablePadding="20sp"
+        android:layout_below="@id/a"
+        android:clickable="true"
+        />
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_below="@+id/left_main"
+        />
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/b"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/d"
+        android:layout_below="@+id/c"/>
+
+    <TextView
+        android:id="@+id/left_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/quiz"
+        android:text="提问"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawablePadding="20sp"
+        android:layout_below="@+id/d"
+        android:clickable="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/e"
+        android:layout_below="@+id/left_quiz"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:id="@+id/f"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/e"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/g"
+        android:layout_below="@+id/f"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_colletion"
+        android:drawableLeft="@mipmap/collection"
+        android:text="收藏"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:drawablePadding="20sp"
+        android:layout_below="@+id/g"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/h"
+        android:layout_below="@+id/left_colletion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:id="@+id/i"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/h"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:id="@+id/j"
+        android:layout_below="@+id/i"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/k"
+        android:text="用户设置"
+        android:textSize="13sp"
+        android:layout_below="@+id/j"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alteravatar"
+        android:drawableLeft="@mipmap/avatar"
+        android:text="修改头像"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawablePadding="20sp"
+        android:clickable="true"
+        android:layout_below="@+id/k"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/l"
+        android:layout_below="@+id/alteravatar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:id="@+id/m"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/l"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/n"
+        android:layout_below="@+id/m"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alterpsw"
+        android:drawableLeft="@mipmap/psw"
+        android:text="修改密码"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawablePadding="20sp"
+        android:clickable="true"
+        android:layout_below="@+id/n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/o"
+        android:layout_below="@+id/alterpsw"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:id="@+id/p"
+        android:background="#E6E6E6"
+        android:layout_below="@+id/o"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/q"
+        android:layout_below="@+id/p"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:drawableLeft="@mipmap/exit"
+        android:text="退出登陆"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawablePadding="20sp"
+        android:clickable="true"
+        android:layout_below="@id/q"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_below="@+id/exit"
+        android:background="#E6E6E6"/>
+
+
+
+</RelativeLayout>
